@@ -59,6 +59,9 @@ import product_47 from './product_47.png'
 import product_48 from './product_48.png'
 import product_49 from './product_49.png'
 import product_50 from './product_50.png'
+import product_51 from './product_51.png'
+import product_52 from './product_52.png'
+import product_53 from './product_53.png'
 
 
 import add_icon_white from './add_icon_white.png'
@@ -494,10 +497,34 @@ export const product_list = [
     },
     {
         _id: "50",
-        name: "Bagues",
+        name: "Basket femme",
         image: product_50,
         price: 20,
-        description: "Bagues",
+        description: "Basket",
         category: "Accessoires & Bijoux"
+    },
+    {
+        _id: "51",
+        name: "Bottine",
+        image: product_51,
+        price: 20,
+        description: "Bottine pour femme",
+        category: "Chaussures"
+    },
+    {
+        _id: "52",
+        name: "Sandale",
+        image: product_52,
+        price: 20,
+        description: "Sandale pour femme",
+        category: "Chaussures"
+    },
+    {
+        _id: "53",
+        name: "Bagues",
+        image: product_53,
+        price: 20,
+        description: "Bagues",
+        category: "Chaussures"
     }
 ]

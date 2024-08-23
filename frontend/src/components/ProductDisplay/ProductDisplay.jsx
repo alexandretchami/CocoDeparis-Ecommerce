@@ -13,7 +13,8 @@ const ProductDisplay = ({category}) => {
         <h2>Nos meilleurs produits</h2>
         <div className="product-display-list">
           {product_list.map((item,index)=>{
-          return <ProductItem key={index} id={item._id} name={item.name} description={item.description} price={item.price} image={item.image}/>
+            if(category==='All' || item.category===category)  // show only products in the selected category or all products if no category is selected
+              return <ProductItem key={index} id={item._id} name={item.name} description={item.description} price={item.price} image={item.image}/>
           })}
         </div>
     </div>
